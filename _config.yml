@@ -1,0 +1,83 @@
+---
+booktitle: Proceedings of the 2nd Mathematical and Scientific Machine Learning Conference
+shortname: msml
+volume: '145'
+year: '2021'
+start: 2021-08-16
+end: 2021-08-19
+published: 2022-04-30
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: msml21
+month: 0
+cycles: false
+bibtex_editor: Bruna, Joan and Hesthaven, Jan and Zdeborova, Lenka
+editor:
+- given: Joan
+  family: Bruna
+- given: Jan
+  family: Hesthaven
+- given: Lenka
+  family: Zdeborova
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 2nd Mathematical and Scientific Machine Learning Conference
+    Held in Virtual Conference on 16-19 August 2021
+
+  Published as Volume 145 by the Proceedings of Machine Learning Research on 30 April 2022.
+
+  Volume Edited by:
+    Joan Bruna
+    Jan Hesthaven
+    Lenka Zdeborova
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 16--19 Aug
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v145"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v145
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v145
+email: ''
+conference:
+  name: Mathematical and Scientific Machine Learning
+  url: https://msml21.github.io/
+  location: Virtual Conference
+  dates:
+  - 2021-08-16
+  - 2021-08-17
+  - 2021-08-18
+  - 2021-08-19
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/home/markus/repos/mlresearch/v145/msml21.bib"
+# Site settings
+# Original source:  /home/markus/repos/mlresearch/v145/msml21.bib
